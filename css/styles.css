@@ -1,0 +1,32 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+}
+
+h1 {
+  text-align: center;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-color: rgba(192, 186, 186);
+}
+
+nav,
+footer {
+  background-color: rgba(211, 198, 241);
+}
+
+main {
+  background-color: rgb(223, 183, 73);
+  font-size: 20px;
+}
+
+li {
+  display: inline-block;
+  width: 20%;
+}
+
+p {
+  line-height: 1.2;
+}
