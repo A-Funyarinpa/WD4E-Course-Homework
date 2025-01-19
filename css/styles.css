@@ -1,18 +1,31 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 22px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.skip {
+  background-color: rgb(223, 183, 73);
 }
 
 h1 {
   text-align: center;
   font-family: Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 20px;
 }
 
 header {
   background-color: rgba(192, 186, 186);
+  margin-top: 30px;
 }
 
-nav,
+.nav-and-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 footer {
   background-color: rgba(211, 198, 241);
 }
@@ -23,10 +36,56 @@ main {
 }
 
 li {
-  display: inline-block;
-  width: 20%;
+  list-style: none;
 }
 
-p {
-  line-height: 1.2;
+#main p {
+  line-height: 1.4;
+  font-size: 32px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 0;
+  margin-left: 60px;
+}
+
+ul a {
+  display: inline-block;
+  font-size: 28px;
+}
+
+footer {
+  font-size: 28px;
+}
+
+footer a {
+  color: rgb(175, 138, 36);
+}
+
+.gallery {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.walk-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 20px;
+  align-items: center;
+  justify-items: center;
+}
+
+.walk-gallery img {
+  max-width: 70%;
+  height: auto;
+}
+
+.gallery img {
+  max-width: 100px;
 }
